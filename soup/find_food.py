@@ -9,7 +9,6 @@ from parse_product_page import find_contents
 from database import *
 
 STORE_URL = 'https://handlaprivatkund.ica.se/stores/1004219/'
-DB_NAME = 'food.db'
 
 def main():
     query = sys.argv[-1]

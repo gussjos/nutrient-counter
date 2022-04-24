@@ -14,6 +14,7 @@ def macro_dict(description='', kcal=0,protein=0,carbs=0,fat=0,cost=0,unit='100 g
         'unit': unit
     }) 
 
+# Yeah this is a super alpha version that I am using before I figure out some database stuff :D 
 food_dict = {
     '': macro_dict('Empty',0,0,0,0,0,'nothing'),
     'havregryn': macro_dict('Havregryn Axa', 370, 12, 60, 7, 26/15, '100 g'), 
